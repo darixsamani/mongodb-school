@@ -4,18 +4,19 @@ conn = new Mongo();
 
 db = conn.getDB("ic");
 
+// NOM: SAMANI Darix
 
 
 // port mongodb important
-// pour afficher le resultant d'une requete dans le terminal, affectez le resultant 
-// dans une varibale cursor ensuite utilisez forEach(printjson) pour l'affichage 
+// pour afficher le résultant d'une requête dans le terminal, affectez le résultant 
+// dans une variable cursor ensuite utilisez forEach(printjson) pour l'affichage
 //
 // exemple q2 = db.getCollection('etudiants').update({nom: 'DOUWE VINCENT'}, {$set: {nom:'DOUWE H. Vincent'}})
 // q2.forEach(printjson)
 
 
 
-// avant rassurez vous que mongodb toune sur le port 27017 avant de chager le script javascript
+// Rassurez-vous que mongodb toune sur le port 27017 avant de charger le script javascript
 
 db = connect("localhost:27017/ic");
 
